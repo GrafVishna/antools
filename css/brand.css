@@ -1,0 +1,113 @@
+
+.brand__conteiner {
+  overflow: hidden;
+  position: relative;
+  padding: 55px 72px;
+  border-radius: 10px;
+  margin: 0 0 200px 0;
+}
+      .brand__conteiner:hover {
+        top: -7px;
+        transition: all 0.3s ease;
+        background-color: #283036;
+      }
+
+.brand__elips {
+  position: absolute;
+  top: -250px;
+  left: -200px;
+  transition: all 0.5s ease;
+}
+      .brand__conteiner:hover .brand__elips {
+        top: -180px;
+        left: -100px;
+      }
+
+/*--brand line--*/
+.brand__line {
+  position: absolute;
+  display: block;
+}
+.brand__line__top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background:linear-gradient(90deg, transparent, #FF6E30);
+}
+      .brand__conteiner:hover .brand__line__top {
+        transition: all 0.6s ease;
+        left:100%;
+      }
+
+.brand__line__right {
+  top: -100%;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background:linear-gradient(0deg, #FF6E30, transparent);
+}
+      .brand__conteiner:hover .brand__line__right {
+        top: 100%;
+        transition: all 0.8s ease 0.3s;
+      }
+
+.brand__line__bottom {
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background:linear-gradient(90deg, transparent, #FF6E30);
+}
+      .brand__conteiner:hover .brand__line__bottom {
+        transition: all 0.6s ease 0.3s;
+        left: 100%;
+      }
+
+.brand__line__left {
+  top: -100%;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background:linear-gradient(0deg, #FF6E30, transparent);
+}
+      .brand__conteiner:hover .brand__line__left {
+        top: 100%;
+        transition: all 0.8s ease;
+      }
+
+/*--------------*/
+.brand__title {
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0 0 55px 0;
+}
+.brand__ittems {
+  display: flex;
+  justify-content: space-between;
+}
+.brand__ittem {
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+      .brand__ittem:before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        border-radius: 3px;
+        transform: rotate(135deg);
+      }
+      .brand__ittem:hover:before {
+        transition: all 1.5s ease;
+        background-color: rgba(255,110,48,1);
+        box-shadow: 0 0 50px 20px  rgba(255,110,48,1);
+        left: 100%;
+      }

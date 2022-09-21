@@ -1,0 +1,40 @@
+.join {}
+.conteiner__join {
+  text-align: center;
+}
+.join__title {
+  margin: 0 auto 25px auto;
+  max-width: 650px;
+}
+.title__content {}
+.joine__subtitle {
+  margin: 0 auto 100px auto;
+  max-width: 430px;
+}
+
+.form__mail {
+  display: flex;
+  background-color: #36414a;
+  max-width: 500px;
+  padding: 8px 11px;
+  border-radius: 15px;
+  border: 1px solid #3e4b56;
+  margin: 0 auto 200px auto;
+}
+
+.input__mail {
+  margin: 0 10px 0 0;
+  display: flex;
+  flex-grow: 1;
+  background-color: #36414a;
+  font-size: 16px;
+  color: #fff;
+}
+      .form__mail:before {
+        content: "";
+        align-self: center;
+        margin: 0 13px 0 0;
+        width: 24.08px;
+        height: 24px;
+        background-image: url('../img/icons/search.svg');
+      }
